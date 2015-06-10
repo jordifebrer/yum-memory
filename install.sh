@@ -6,9 +6,9 @@ DIR="$( cd "$( dirname "$0" )" && pwd )"
 # adds the script folder to the PATH
 /bin/cat << EOF >> ~/.bashrc
 export PATH=$PATH:$DIR
-EOF
 
 # yum-memory script call
 ./yum-memory.sh
+EOF
 
 # type . ~/.bashrc from your command line and then you will able to run the scripts from everywhere
