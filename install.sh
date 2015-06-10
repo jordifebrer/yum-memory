@@ -5,7 +5,7 @@ DIR="$( cd "$( dirname "$0" )" && pwd )"
 
 # adds the script folder to the PATH
 /bin/cat << EOF >> ~/.bashrc
-export PATH=\$PATH:\$DIR
+export PATH=\$PATH:$DIR
 
 # calls yum-memory.sh script
 yum-memory.sh
