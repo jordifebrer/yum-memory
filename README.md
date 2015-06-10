@@ -6,8 +6,7 @@ Installing yum-memory:
 ```shell
 git clone https://github.com/jordifebrer/yum-memory.git
 cd yum-memory/
-chmod +x install.sh yum-memory.sh
-./install.sh
+install.sh
 ```
 
 Enabling yum-memory:
