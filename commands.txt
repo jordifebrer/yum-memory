@@ -1,10 +1,8 @@
-yum check-update
+yum check-update # displays existing updates
 yum update package_name
-yum update
-yum search package_name
-yum search openjdk
-yum list *java*1.8.0*
-yum list *java*1.8.0*
+yum update # download and install all updates
+yum search openjdk # search for a package called openjdk
+yum list *java*1.8.0* # same as yum search but with a regex style
 yum list all
 yum list installed *java*
 yum list available *java*
@@ -13,11 +11,11 @@ yum repolist
 yum info cowsay
 yumdb info yum
 yum install cowsay
-yum install cowsay ytree
+yum install cowsay tree vim
 yum remove ytree
 yum install cowsa*
 sudo yum groupinstall 3D*
-sudo yum install @3D*
+sudo yum install @3D* # same as groupinstall adding @
 yum groupremove 3D*
 yum remove @3D*
 yum history list
