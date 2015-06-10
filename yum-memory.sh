@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# full path of the actual directory (scripts directory)
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+
 # name of the file that contains the YUM commands
-filename="commands.txt"
+filename="$(echo $DIR)/commands.txt"
 
 # counts lines from commands.txt
 number_lines=$(cat "$filename" | wc -l)
