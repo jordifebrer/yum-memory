@@ -1,0 +1,27 @@
+yum check-update
+yum update package_name
+yum update
+yum search package_name
+yum search openjdk
+yum list *java*1.8.0*
+yum list *java*1.8.0*
+yum list all
+yum list installed *java*
+yum list available *java*
+yum grouplist
+yum repolist
+yum info cowsay
+yumdb info yum
+yum install cowsay
+yum install cowsay ytree
+yum remove ytree
+yum install cowsa*
+sudo yum groupinstall 3D*
+sudo yum install @3D*
+yum groupremove 3D*
+yum remove @3D*
+yum history list
+yum history summary
+yum history info 4
+yum history addon-info 4
+yum history package-list *java*
